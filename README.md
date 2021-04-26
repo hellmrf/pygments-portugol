@@ -28,7 +28,7 @@ $ pip install pygments_portugol
 
 ## Utilização
 
-Para utilizar o _lexer_, o procedimento é equivalente a qualquer outra linguagem suportada pelo Pygments. Utilize `portugol` ou `portugolstudio` como nome da linguagem. Por exemplo, o código em Python a seguir ilustra como ler um arquivo [`code.por`](https://github.com/hellmrf/pygments-portugol/examples/code.por) e salvar em HTML no arquivo [`formatted.html`](https://github.com/hellmrf/pygments-portugol/examples/formatted.html).
+Para utilizar o _lexer_, o procedimento é equivalente a qualquer outra linguagem suportada pelo Pygments. Utilize `portugol` ou `portugolstudio` como nome da linguagem. Por exemplo, o código em Python a seguir ilustra como ler um arquivo [`code.por`](https://github.com/hellmrf/pygments-portugol/tree/main/pygments_portugol/examples/code.por) e salvar em HTML no arquivo [`formatted.html`](https://github.com/hellmrf/pygments-portugol/tree/main/pygments_portugol/examples/formatted.html).
 
 ```python
 from pygments import highlight
@@ -92,7 +92,7 @@ O código a seguir ilustra um fatorial recursivo no Portugol Studio.
 ```
 
 Resultado:
-[![](https://github.com/hellmrf/pygments-portugol/examples/latex.png)](https://github.com/hellmrf/pygments-portugol/examples/latex.png)
+[![](https://github.com/hellmrf/pygments-portugol/tree/main/pygments_portugol/examples/latex.png)](https://github.com/hellmrf/pygments-portugol/tree/main/pygments_portugol/examples/latex.png)
 
 Veja [este tutorial](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted) se quiser ver outras possibilidades, como escolher cores diferentes ou importar de um arquivo externo.
 
@@ -100,7 +100,7 @@ Veja [este tutorial](https://www.overleaf.com/learn/latex/Code_Highlighting_with
 
 Caso você tenha o costume de usar Overleaf, pode ter lido a seção anterior e pensado que é impossível instalar um pacote Python no Overleaf. Sim, é verdade. Felizmente, é possível utilizar um _lexer_ sem instalação obrigatória.
 
-1. Copie o arquivo do _lexer_ ([este](https://github.com/hellmrf/pygments-portugol/pygments_portugol/__init__.py)) e salve como, por exemplo, `PortugolStudioLexer.py`.
+1. Copie o arquivo do _lexer_ ([este](https://github.com/hellmrf/pygments-portugol/tree/main/pygments_portugol/pygments_portugol/__init__.py)) e salve como, por exemplo, `PortugolStudioLexer.py`.
 
 2. Coloque no mesmo diretório do seu arquivo `.tex`;
 
