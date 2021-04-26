@@ -46,6 +46,8 @@ with open("./formatted.html", "w") as fl:
     fl.write(result)
 ```
 
+[Clique aqui para ver o resultado](https://htmlpreview.github.io/?https://github.com/hellmrf/pygments-portugol/blob/main/examples/formatted.html).
+
 ### Utilização com LaTeX
 
 Para tipografar um código em LaTeX com o Pygments, pode-se utilizar o pacote [`minted`](https://www.ctan.org/pkg/minted). O código a seguir é um exemplo. A fonte DejaVuSansMono foi utilizada apenas por questões estéticas. As duas linhas referentes à fonte podem ser removidas ou substituídas. Caso queira usar pdfLaTeX, remova-as.
