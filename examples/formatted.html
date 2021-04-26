@@ -1,0 +1,51 @@
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 1</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 2</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 3</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 4</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 5</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 6</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 7</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 8</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;"> 9</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">10</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">11</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">12</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">13</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">14</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">15</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">16</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">17</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">18</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">19</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">20</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">21</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">22</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">23</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">24</span>
+<span style="color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px;">25</span></pre></div></td><td class="code"><div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #008000; font-weight: bold">programa</span>
+{
+    <span style="color: #008000; font-weight: bold">funcao</span> inicio()
+    {
+        <span style="color: #B00040">inteiro</span> numero
+                
+        escreva(<span style="color: #BA2121">&quot;Digite um número: &quot;</span>)
+        leia(numero)
+
+        limpa()
+        escreva(<span style="color: #BA2121">&quot;O fatorial de &quot;</span>, numero, <span style="color: #BA2121">&quot; é: &quot;</span>, fatorial(numero), <span style="color: #BA2121">&quot;</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BA2121">&quot;</span>) 
+    }
+
+    <span style="color: #408080; font-style: italic">// Função recursiva que calcula o fatorial do número passado</span>
+        
+    <span style="color: #008000; font-weight: bold">funcao</span> <span style="color: #B00040">inteiro</span> fatorial(<span style="color: #B00040">inteiro</span> numero)
+    {
+        <span style="color: #008000; font-weight: bold">se</span> (numero <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #008000">ou</span> numero <span style="color: #666666">==</span> <span style="color: #666666">0</span>)
+        {
+            <span style="color: #008000; font-weight: bold">retorne</span> <span style="color: #666666">1</span>
+        }
+        
+        <span style="color: #008000; font-weight: bold">retorne</span> numero <span style="color: #666666">*</span> fatorial(numero <span style="color: #666666">-</span> <span style="color: #666666">1</span>)
+    }
+}
+</pre></div>
+</td></tr></table>
