@@ -23,7 +23,7 @@ $ python -m pip install pygments
 Após instalar com sucesso o Pygments, você pode instalar o _lexer_ para Portugol Studio:
 
 ```sh
-$ pip install pygments_portugol
+$ pip install pygments-portugol
 ```
 
 ## Utilização
