@@ -7,6 +7,7 @@ setup(
     version='0.1.0',
     description='Pygments lexer for Portugol Studio.',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     keywords='pygments portugol studio lexer',
     license='GPLv3',
 
