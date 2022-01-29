@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments_portugol',
-    version='0.2.0',
+    version='0.2.1',
     description='Pygments lexer for Portugol Studio.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
