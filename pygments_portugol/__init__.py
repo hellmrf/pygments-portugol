@@ -9,12 +9,10 @@
     :license: GPL v3.0, see LICENSE for details.
 """
 
-import re
 from pygments.token import Name, Keyword
 
 from pygments.lexer import RegexLexer, include, bygroups, using, \
-    this, inherit, default, words
-from pygments.util import get_bool_opt
+    this, default, words
 from pygments.token import Text, Comment, Operator, Keyword, Name, String, \
     Number, Punctuation, Error
 
